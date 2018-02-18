@@ -1,0 +1,30 @@
+<idea-plugin>
+  <id>kotlin-stats</id>
+  <name>kotlin-stats</name>
+  <version>1.0</version>
+  <vendor email="daniilplyushchenko@gmail.com" url="github.com/plyushchenko/kotlin-stats">Github</vendor>
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="kotlin-stats"   secondary="true" anchor="right" factoryClass="MainPanel"/>
+  </extensions>
+  <actions>
+  </actions>
+
+</idea-plugin>
